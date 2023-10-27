@@ -1,0 +1,51 @@
+/* seletor global = seleciona TODOS os elementos da página ou de determinado lugar*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* seletor pela tag */
+p {
+    color: #ff0a54;
+}
+
+main {
+    margin-top: 1rem;
+}
+
+/* seletor pela classe */
+.paragrafo {
+    border: 1px solid #FF477E;
+    color: #ff7096;
+    margin-top: 1rem;
+}
+
+/* seletor pelo ID */
+#titulo {
+    color: #ff85a1;
+    margin-bottom: 1rem;
+}
+
+/* seletor pelo atributo */
+input[type="password"] {
+    font-size: 3rem;
+}
+
+/* seletor por descendente*/
+.login-form input {
+    font-size: 2rem;
+    color: #ff99ac;
+}
+
+/* seletor de filhos diretos */
+.login-form > input {
+    color: #fbb1bd;
+    width: 10rem;
+}
+
+/* pseudo-classes */
+.cadastro-form div:nth-of-type(2) {
+    background: #fe036a;
+}
